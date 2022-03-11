@@ -3,13 +3,14 @@
 
 *{
     font-family: 'Montserrat', sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero {
     background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url("assets/backgrounds/h_img.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
 }
 
 .hero .desc .mouse {
@@ -20,7 +21,4 @@
 .services {
     background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("assets/backgrounds/s_image.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
