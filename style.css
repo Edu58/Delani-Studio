@@ -1,7 +1,7 @@
 /* Google Fonts - Montserrat */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-*{
+* {
     font-family: 'Montserrat', sans-serif;
     background-position: center;
     background-repeat: no-repeat;
@@ -9,8 +9,9 @@
 }
 
 .hero {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url("assets/backgrounds/h_img.jpg");
-    
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("assets/backgrounds/h_img.jpg");
+
 }
 
 .hero .desc .mouse {
@@ -20,5 +21,10 @@
 
 .services {
     background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("assets/backgrounds/s_image.jpg");
+        url("assets/backgrounds/s_image.jpg");
+}
+
+.contact {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("assets/backgrounds/c_image.jpg");
 }
