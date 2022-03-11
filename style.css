@@ -16,3 +16,11 @@
     position: absolute;
     bottom: 5%;
 }
+
+.services {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("assets/backgrounds/s_image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
