@@ -21,4 +21,10 @@ $(function () {
     })
 
 
+    // Trigers hover effect on the portfolio images
+    $('.portfolio .row .project').on('mouseover', function () {
+        $('.portfolio .row .project img').toggleClass('darken')
+        $('.portfolio .row .project .hover-text').toggleClass('showhovereffect')
+    })
+
 })
