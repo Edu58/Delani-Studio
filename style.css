@@ -31,6 +31,20 @@ footer .socials,
     cursor: pointer;
 }
 
+.portfolio .row .project {
+    position: relative;
+}
+
+.portfolio .row .project .hover-text {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    opacity: 0;
+}
+
 .contact {
     background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url("assets/backgrounds/c_image.jpg");

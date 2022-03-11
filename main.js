@@ -1,6 +1,10 @@
 $(function () {
+
+    // Hides what we do descriptions on DOM ready
     $('#design-desc, #dev-desc, #project-desc').hide()
 
+
+    // Toggles between what we do images and the description
     $('#design-div').on('click', function () {
         $('#design-img').fadeToggle()
         $('#design-desc').fadeToggle()
