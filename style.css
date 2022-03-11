@@ -25,6 +25,12 @@
         url("assets/backgrounds/s_image.jpg");
 }
 
+.what-we-do .container .row .wedo,
+footer .socials,
+.portfolio .row .project {
+    cursor: pointer;
+}
+
 .contact {
     background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url("assets/backgrounds/c_image.jpg");
