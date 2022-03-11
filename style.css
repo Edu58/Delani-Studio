@@ -37,23 +37,23 @@ footer .socials,
 }
 
 .portfolio .row .project img.darken {
-    transition: 1s all;
-    opacity: .7;
+    transition: .2s all;
+    opacity: .2;
 }
 
 .portfolio .row .project .hover-text {
     position: absolute;
     top: 50%;
     left: 40%;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-weight: 600;
     font-size: 1.5rem;
-    opacity: 0;
-    transition: 1s all;
+    display: none;
+    transition: .2s all;
 }
 
 .portfolio .row .project .hover-text.showhovereffect {
-    opacity: 1;
+    display: block;
 }
 
 .contact {
