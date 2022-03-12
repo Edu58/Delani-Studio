@@ -38,7 +38,7 @@ footer .socials,
 
 .portfolio .row .project img.darken {
     transition: .2s all;
-    opacity: .2;
+    opacity: .4;
 }
 
 .portfolio .row .project .hover-text {

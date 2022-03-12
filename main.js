@@ -31,5 +31,18 @@ $(function () {
          $(this).children('img').removeClass('darken')
          $(this).children('.hover-text').removeClass('showhovereffect')
      })
+    
+    // Form submission handling
+    $('#contact-form').on('submit', function (e) {
+        //prevent page refresh
+        e.preventDefault()
+
+        const userName = $('#name').val()
+
+        console.log(userName)
+
+        // Reset form on submit
+        $(this).trigger('reset')        
+    })
 
 })
