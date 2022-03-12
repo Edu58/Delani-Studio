@@ -146,6 +146,10 @@
                 <p class="fs-3 fw-bold">CONTACT US</p>
 
                 <form id="contact-form">
+                    <div id="alert" class="alert alert-success alert-dismissible fade show" role="alert">
+                        <span id="username"></span> we have received your message. Thank you for reaching out to us.
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
                     <div class="mb-3 d-flex">
                         <input type="text" id="name" class="form-control me-3 bg-transparent text-light" placeholder="name" required>
                         <input type="email" id="email" class="form-control bg-transparent text-light" placeholder="email" required>
@@ -153,7 +157,7 @@
                     <textarea name="message" id="message" rows="10" class="form-control bg-transparent text-light"
                         placeholder="Your message here..." required></textarea>
 
-                    <button type="submit" class="btn btn-primary mt-3">Send Message</button>
+                    <button type="submit" id="submitBtn" class="btn btn-primary mt-3">Send Message</button>    
                 </form>
             </div>
         </section>

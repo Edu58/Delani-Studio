@@ -2,7 +2,7 @@ $(function () {
 
     // Hides what we do descriptions on DOM ready
     $('#design-desc, #dev-desc, #project-desc').hide()
-
+    $('#alert').hide()
 
     // Toggles between what we do images and the description
     $('#design-div').on('click', function () {
@@ -39,7 +39,8 @@ $(function () {
 
         const userName = $('#name').val()
 
-        console.log(userName)
+        $('#username').text(userName)
+        $('#alert').show()
 
         // Reset form on submit
         $(this).trigger('reset')        
