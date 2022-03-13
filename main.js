@@ -33,17 +33,17 @@ $(function () {
      })
     
     // Form submission handling
-    $('#contact-form').on('submit', function (e) {
-        //prevent page refresh
-        e.preventDefault()
+    // $('#contact-form').on('submit', function (e) {
+    //     //prevent page refresh
+    //     e.preventDefault()
 
-        const userName = $('#name').val()
+    //     const userName = $('#name').val()
 
-        $('#username').text(userName)
-        $('#alert').show()
+    //     $('#username').text(userName)
+    //     $('#alert').show()
 
-        // Reset form on submit
-        $(this).trigger('reset')        
-    })
+    //     // Reset form on submit
+    //     $(this).trigger('reset')        
+    // })
 
 })
